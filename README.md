@@ -15,7 +15,7 @@ This is a TailwindCSS intro created by Niamh Doyle. Also covered is an intro to 
 
 ## What we will be doing today
 
-- This is purly styling tutorial. You won't be writing any JavScript/React. All the React code has already been written for you.
+- This is purly styling tutorial. You won't be writing any JavaScript/React. All the React code has already been written for you.
 
 ## Let's get started!
 
@@ -30,7 +30,7 @@ npm i
 The index.html file takes its styles from ./src/output.css, so running the below will ensure that the output.css file is always up-to-date with changes to your CSS. Leave this terminal running (don't kill it!) If at any point it dies or you need to restart, just run the below line again.
 
 ```
-tailwind-css-intro % npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
+npx tailwindcss -i ./src/index.css -o ./src/output.css --watch
 ```
 
 In a separate terminal:
@@ -42,22 +42,25 @@ npm run dev
 ## Resources for today:
 
 Material Icons we will use today (feel free to use the ones you prefer!)
-[Icons](https://mui.com/material-ui/material-icons/)
+
+- [Icons](https://mui.com/material-ui/material-icons/)
 
 daisyUI themeing and components (button, badge):
-[Themes](https://daisyui.com/docs/themes/)
-[Colors](https://daisyui.com/docs/colors/)
-[Buttons](https://daisyui.com/components/button/)
-[Badges](https://daisyui.com/components/badge/)
+
+- [Themes](https://daisyui.com/docs/themes/)
+- [Colors](https://daisyui.com/docs/colors/)
+- [Buttons](https://daisyui.com/components/button/)
+- [Badges](https://daisyui.com/components/badge/)
 
 TailwindCSS utility classes (feel free to explore during the tutorial to find the necessary class name)
-[Flex](https://tailwindcss.com/docs/flex)
-[Gap](https://tailwindcss.com/docs/gap)
-[Grid](https://tailwindcss.com/docs/grid-template-columns)
-[Spacing](https://tailwindcss.com/docs/padding)
-[Typography](https://tailwindcss.com/docs/font-family)
-[Effects](https://tailwindcss.com/docs/box-shadow)
-[Borders](https://tailwindcss.com/docs/border-radius)
+
+- [Flex](https://tailwindcss.com/docs/flex)
+- [Gap](https://tailwindcss.com/docs/gap)
+- [Grid](https://tailwindcss.com/docs/grid-template-columns)
+- [Spacing](https://tailwindcss.com/docs/padding)
+- [Typography](https://tailwindcss.com/docs/font-family)
+- [Effects](https://tailwindcss.com/docs/box-shadow)
+- [Borders](https://tailwindcss.com/docs/border-radius)
 
 ## Links and resources for further reading (for AFTER the tutorial, if interested)
 
@@ -65,19 +68,19 @@ TailwindCSS utility classes (feel free to explore during the tutorial to find th
 
 A utility-first CSS framework.
 
-[Homepage](https://tailwindcss.com/)
-[Installation and doumentation](https://tailwindcss.com/docs/installation)
+- [Homepage](https://tailwindcss.com/)
+- [Installation and doumentation](https://tailwindcss.com/docs/installation)
 
 ### DaisyUI
 
 DaisyUI is a component class name library built on top of Tailwind CSS.
 
-[Homepage](https://daisyui.com/)
-[Installation](https://daisyui.com/docs/install/)
+- [Homepage](https://daisyui.com/)
+- [Installation](https://daisyui.com/docs/install/)
 
 ### Material UI
 
 Material UI is an open-source React component library that implements Google's Material Design. The library comes with icons that are versatile and easy to use.
 
-[Homepage](https://mui.com/material-ui/getting-started/)
-[Installation](https://mui.com/material-ui/getting-started/installation/)
+- [Homepage](https://mui.com/material-ui/getting-started/)
+- [Installation](https://mui.com/material-ui/getting-started/installation/)
