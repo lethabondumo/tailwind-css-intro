@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply p-3;
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+}
+
+@layer components {
+  .app {
+    @apply p-10 w-9/12 ml-auto mr-auto;
+  }
+}
