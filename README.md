@@ -62,6 +62,8 @@ TailwindCSS utility classes (feel free to explore during the tutorial to find th
 - [Effects](https://tailwindcss.com/docs/box-shadow)
 - [Borders](https://tailwindcss.com/docs/border-radius)
 
+- [Avatars](https://pravatar.cc/images)
+
 ## Links and resources for further reading (for AFTER the tutorial, if interested)
 
 ### Tailwind CSS

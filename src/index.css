@@ -4,7 +4,11 @@
 
 @layer base {
   body {
-    @apply p-3;
+    @apply p-5;
+  }
+
+  header {
+    @apply p-10 mb-10;
   }
 
   h1 {
@@ -14,6 +18,18 @@
 
 @layer components {
   .app {
-    @apply p-10 w-9/12 ml-auto mr-auto;
+    @apply p-10;
+  }
+
+  .container {
+    @apply justify-items-center items-center flex flex-col p-10;
+  }
+
+  .card {
+    @apply mt-10 p-5 border-2 border-solid border-current rounded-lg ml-auto mr-auto w-96;
+  }
+
+  .card img {
+    @apply rounded-lg opacity-90;
   }
 }
