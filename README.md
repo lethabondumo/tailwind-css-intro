@@ -45,6 +45,10 @@ Branch "main" contains our starting point for today
 
 Branch "final" contains one possible goal state
 
+(You can also have a peek at the final code on [GitHub](https://github.com/niamh-d/tailwind-css-intro/tree/final/src) if you get stuck during the tutorial.)
+
+![final image](/imgs/final.png)
+
 ### Branch "setup"
 
 Branch "setup" has the Tailwind/Daisy/Material setup code but nothing else, so you can use it as a jumping off point for your own future projects, should you wish.
@@ -99,6 +103,8 @@ TailwindCSS utility classes (feel free to explore during the tutorial to find th
 Pravatar:
 
 - [Avatars](https://pravatar.cc/images)
+
+(You can also have a peek at the final code on [GitHub](https://github.com/niamh-d/tailwind-css-intro/tree/final/src) if you get stuck during the tutorial.)
 
 ## Links and resources for further reading (for AFTER the tutorial, if interested)
 
