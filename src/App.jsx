@@ -31,7 +31,7 @@ function reducer(state, action) {
 }
 
 function App() {
-  const randNum = Math.floor(Math.random() * 36);
+  const randNum = Math.floor(Math.random() * 71);
 
   const [{ avatar, firstName, lastName, formIsOpen }, dispatch] = useReducer(
     reducer,
