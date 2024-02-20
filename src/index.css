@@ -49,7 +49,7 @@
     @apply mt-10 p-5 rounded-lg ml-auto mr-auto w-96;
   }
 
-  .card img {
-    @apply rounded-lg opacity-85;
-  }
+  /* .card img {
+
+  } */
 }

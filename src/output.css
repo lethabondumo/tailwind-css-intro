@@ -1719,10 +1719,9 @@ li {
   padding: 1.25rem;
 }
 
-.card img {
-  border-radius: 0.5rem;
-  opacity: 0.85;
-}
+/* .card img {
+
+  } */
 
 .mt-10 {
   margin-top: 2.5rem;
@@ -1730,10 +1729,6 @@ li {
 
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .flex {
@@ -1748,18 +1743,10 @@ li {
   max-width: 20rem;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
 
 .justify-self-center {
   justify-self: center;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }

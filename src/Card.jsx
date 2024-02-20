@@ -7,8 +7,8 @@ const Card = ({ avatar, firstName, lastName }) => {
     <div className="card">
       {/* <img src={IMG_URL} /> */}
       <img src={`${AVATAR_URL_BASE}${avatar}`} />
-      <div className="mt-5 p-5">
-        <ul className="flex flex-col">
+      <div className="">
+        <ul className="">
           <li>
             <span>{lastName}</span>
             <span>, {firstName}</span>
