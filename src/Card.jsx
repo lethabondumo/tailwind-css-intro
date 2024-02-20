@@ -17,7 +17,7 @@ const Card = ({ avatar, firstName, lastName }) => {
           <li>French</li>
           <li>Female</li>
           <li>
-            <span>05 May 2000</span>
+            <span>05 May</span>
           </li>
         </ul>
         <div>French, English, German</div>
@@ -27,3 +27,26 @@ const Card = ({ avatar, firstName, lastName }) => {
 };
 
 export default Card;
+
+/* <li className="flex gap-3 justify-self-center">
+<Tooltip title="Sex" placement="left">
+  {sex === "F" && <FemaleIcon />}
+  {sex === "M" && <MaleIcon />}
+  {sex === "N" && <TransgenderIcon />}
+</Tooltip>
+{sex === "F" && <span>Female</span>}
+{sex === "M" && <span>Male</span>}
+{sex === "N" && <span>Non-binary</span>}
+</li> */
+
+// import LocationCityIcon from "@mui/icons-material/LocationCity";
+// import PublicIcon from "@mui/icons-material/Public";
+// import Tooltip from "@mui/material/Tooltip";
+// import FemaleIcon from "@mui/icons-material/Female";
+// import MaleIcon from "@mui/icons-material/Male";
+// import TransgenderIcon from "@mui/icons-material/Transgender";
+// import CakeIcon from '@mui/icons-material/Cake';
+// import PoolIcon from '@mui/icons-material/Pool';
+// import LanguageIcon from '@mui/icons-material/Language';
+
+// const sex = "N";
