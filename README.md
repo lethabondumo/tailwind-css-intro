@@ -17,6 +17,40 @@ This is a TailwindCSS intro created by Niamh Doyle. Also covered is an intro to 
 
 - This is purly styling tutorial. You won't be writing any JavaScript/React. All the React code has already been written for you.
 
+## Branches
+
+There are 3 branches.
+
+You can find out what branch you are currently on by entering in the terminal:
+
+```
+git branch
+```
+
+The currently-viewed branched with be marked with an asterix (\*).
+
+Switch to a different branch by entering:
+
+```
+git checkout <name of branch>
+```
+
+### Branch "main"
+
+Branch "main" contains our starting point for today
+
+![starter image](/imgs/starter.png)
+
+### Branch "final"
+
+Branch "final" contains one possible goal state
+
+### Branch "setup"
+
+Branch "setup" has the Tailwind/Daisy/Material setup code but nothing else, so you can use it as a jumping off point for your own future projects, should you wish.
+
+![setup image](/imgs/setup.png)
+
 ## Let's get started!
 
 This project has been set up so there is no need to run any commands other than:
@@ -61,6 +95,8 @@ TailwindCSS utility classes (feel free to explore during the tutorial to find th
 - [Typography](https://tailwindcss.com/docs/font-family)
 - [Effects](https://tailwindcss.com/docs/box-shadow)
 - [Borders](https://tailwindcss.com/docs/border-radius)
+
+Pravatar:
 
 - [Avatars](https://pravatar.cc/images)
 
