@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   body {
     @apply p-5;
   }
@@ -18,22 +18,22 @@
   li {
     @apply list-none;
   }
-}
+} */
 
 @layer components {
   .app {
     @apply p-10;
   }
 
-  .header {
+  /* .header {
     @apply p-10 mb-10;
   }
 
   .container {
     @apply grid grid-cols-2 p-10;
-  }
+  } */
 
-  .left {
+  /* .left {
     @apply justify-items-center items-center flex flex-col;
   }
 
@@ -43,7 +43,7 @@
 
   .right {
     @apply justify-items-center items-center flex flex-col;
-  }
+  } */
 
   .card {
     @apply mt-10 p-5 rounded-lg ml-auto mr-auto w-96;

@@ -937,25 +937,6 @@ html {
   --rounded-btn: 1.9rem;
 }
 
-body {
-  padding: 1.25rem;
-}
-
-h1 {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: 700;
-}
-
-h2 {
-  margin-left: 16rem;
-  margin-top: 0.5rem;
-}
-
-li {
-  list-style-type: none;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1677,38 +1658,25 @@ li {
   padding: 2.5rem;
 }
 
-.header {
-  margin-bottom: 2.5rem;
-  padding: 2.5rem;
-}
+/* .header {
+    @apply p-10 mb-10;
+  }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  padding: 2.5rem;
-}
+  .container {
+    @apply grid grid-cols-2 p-10;
+  } */
 
-.left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-}
+/* .left {
+    @apply justify-items-center items-center flex flex-col;
+  }
 
-.form {
-  margin-top: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 24rem;
-  padding: 1.25rem;
-}
+  .form {
+    @apply mt-10 p-5 ml-auto mr-auto w-96;
+  }
 
-.right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-}
+  .right {
+    @apply justify-items-center items-center flex flex-col;
+  } */
 
 .card {
   margin-top: 2.5rem;
@@ -1750,3 +1718,21 @@ li {
 .justify-self-center {
   justify-self: center;
 }
+
+/* @layer base {
+  body {
+    @apply p-5;
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  h2 {
+    @apply ml-64 mt-2;
+  }
+
+  li {
+    @apply list-none;
+  }
+} */
