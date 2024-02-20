@@ -50,3 +50,18 @@ export default Card;
 // import LanguageIcon from '@mui/icons-material/Language';
 
 // const sex = "N";
+
+/* <div className="flex gap-3 justify-self-center mt-3">
+<Tooltip title="Languages" placement="left">
+  <LanguageIcon />
+</Tooltip>
+<div className="flex gap-3 justify-self-center">
+  {languages.map((lang) => (
+    <span key={lang} className="badge badge-secondary">
+      {lang}
+    </span>
+  ))}
+</div>
+</div> */
+
+// const languages = ["French", "English", "German"];
