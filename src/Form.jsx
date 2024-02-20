@@ -9,7 +9,7 @@ const Form = ({ dispatch }) => {
 
   const changeHandler = () => {
     if (
-      firstNameInputRef.current.value.length < 2 &&
+      firstNameInputRef.current.value.length < 2 ||
       lastNameInputRef.current.value.length < 2
     )
       return;
