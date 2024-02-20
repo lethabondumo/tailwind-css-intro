@@ -6,6 +6,11 @@ import Tooltip from "@mui/material/Tooltip";
 import FemaleIcon from "@mui/icons-material/Female";
 import MaleIcon from "@mui/icons-material/Male";
 import TransgenderIcon from "@mui/icons-material/Transgender";
+import CakeIcon from "@mui/icons-material/Cake";
+import PoolIcon from "@mui/icons-material/Pool";
+import LanguageIcon from "@mui/icons-material/Language";
+
+const languages = ["French", "English", "German"];
 
 const sex = "N";
 
@@ -45,11 +50,26 @@ const Card = ({ avatar, firstName, lastName }) => {
             {sex === "M" && <span>Male</span>}
             {sex === "N" && <span>Non-binary</span>}
           </li>
-          <li>
-            <span>05 May 2000</span>
+
+          <li className="flex gap-3 justify-self-center">
+            <Tooltip title="Birthday" placement="left">
+              <CakeIcon />
+            </Tooltip>
+            <span>05 May</span>
           </li>
         </ul>
-        <div>French, English, German</div>
+        <div className="flex gap-3 justify-self-center mt-3">
+          <Tooltip title="Languages" placement="left">
+            <LanguageIcon />
+          </Tooltip>
+          <div className="flex gap-3 justify-self-center">
+            {languages.map((lang) => (
+              <span key={lang} className="badge badge-secondary">
+                {lang}
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
