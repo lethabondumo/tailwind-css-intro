@@ -57,12 +57,16 @@ const Form = ({ dispatch }) => {
       <div className="flex gap-3 mt-10">
         <button
           type="submit"
-          className={`btn ${!isValid ? "btn-disabled" : null}`}
+          className={`btn btn-primary ${!isValid ? "btn-disabled" : null}`}
           onClick={submitHandler}
         >
           Submit
         </button>
-        <button className="btn" onClick={closeFormHandler} type="button">
+        <button
+          className="btn btn-ghost"
+          onClick={closeFormHandler}
+          type="button"
+        >
           Close form
         </button>
       </div>
