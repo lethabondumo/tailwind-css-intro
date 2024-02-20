@@ -2,7 +2,7 @@
 
 ## What
 
-This is a TailwindCSS intro created by Niamh Doyle. Also covered is an intro to daisyUI and Material UI Icons. Links to all these are below.
+This is a TailwindCSS intro created by Niamh Doyle. Also covered is an intro to daisyUI, Material UI Icons and Pravatar avatars. Links to all these are below.
 
 ## Today's objective
 
@@ -16,6 +16,8 @@ This is a TailwindCSS intro created by Niamh Doyle. Also covered is an intro to 
 ## What we will be doing today
 
 - This is purly styling tutorial. You won't be writing any JavaScript/React. All the React code has already been written for you.
+- We will be designing a card with text and icons and adding styling to the card, buttons and page
+- I have gone with a person for this tutorial, but you are free to make a card for a pet or a place, etc. Feel free to use the Pravatar images or choose one of your own
 
 ## Branches
 
@@ -77,6 +79,44 @@ In a separate terminal:
 npm run dev
 ```
 
+## Steps
+
+## Branches
+
+1. Look at starter code on main (three main components – app, form, card; app has a reducer function to manage state updates)
+2. Checkout final branch
+3. Switch back to main
+4. Create branch "starter" to save start state (but don't checkout; stay on main)
+
+## Page/layout styling
+
+5. Uncomment code in index.css
+6. Apply a data theme (of your choice) in index.html
+
+## Buttons
+
+7. Open form
+8. Style buttons to your preference
+9. Notice basic input validation
+10. Notice conditional button disabling
+11. (Optional) Alter style of input elements
+
+## Name
+
+12. Update name by submitting data via form
+
+## Photo
+
+13. Click button to randomise starting avatar
+14. Choose a person or animal or place, etc. for card.
+
+## Card
+
+15. Apply margins, paddings, flex, flex gaps
+16. Apply text typographic styling
+17. Add icons
+18. Add badges
+
 ## Resources for today:
 
 Material Icons we will use today (feel free to use the ones you prefer!)
@@ -87,6 +127,7 @@ daisyUI themeing and components (button, badge):
 
 - [Themes](https://daisyui.com/docs/themes/)
 - [Colors](https://daisyui.com/docs/colors/)
+- [Inputs](https://daisyui.com/components/input/)
 - [Buttons](https://daisyui.com/components/button/)
 - [Badges](https://daisyui.com/components/badge/)
 
@@ -128,3 +169,9 @@ Material UI is an open-source React component library that implements Google's M
 
 - [Homepage](https://mui.com/material-ui/getting-started/)
 - [Installation](https://mui.com/material-ui/getting-started/installation/)
+
+### Pravatar:
+
+Contains avatars perfect for using in practice projects / when developing.
+
+- [Pravatar](https://pravatar.cc/)
