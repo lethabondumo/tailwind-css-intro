@@ -9,6 +9,7 @@ import TransgenderIcon from "@mui/icons-material/Transgender";
 import CakeIcon from "@mui/icons-material/Cake";
 import PoolIcon from "@mui/icons-material/Pool";
 import LanguageIcon from "@mui/icons-material/Language";
+import { Pool } from "@mui/icons-material";
 
 const languages = ["French", "English", "German"];
 
@@ -23,10 +24,12 @@ const Card = ({ avatar, firstName, lastName }) => {
       {/* <img src={IMG_URL} /> */}
       <img src={`${AVATAR_URL_BASE}${avatar}`} />
       <div className="mt-5 p-5">
-        <ul className="flex flex-col text-lg gap-2">
-          <li>
-            <span className="font-bold text-2xl uppercase">{lastName}</span>
-            <span className="text-xl">, {firstName}</span>
+        <ul className="flex flex-col text-xl gap-2">
+          <li className="pt-3 pb-3">
+            <span className="font-bold text-3xl uppercase tracking-wider">
+              {lastName}
+            </span>
+            <span className="text-2xl tracking-wider">, {firstName}</span>
           </li>
           <li className="flex gap-3 justify-self-center">
             <Tooltip title="City" placement="left">
@@ -64,11 +67,16 @@ const Card = ({ avatar, firstName, lastName }) => {
           </Tooltip>
           <div className="flex gap-3 justify-self-center">
             {languages.map((lang) => (
-              <span key={lang} className="badge badge-secondary">
+              <span key={lang} className="badge badge-neutral p-3">
                 {lang}
               </span>
             ))}
           </div>
+        </div>
+        <div className="mt-3">
+          <Tooltip title="Swimming" placement="left">
+            <PoolIcon />
+          </Tooltip>
         </div>
       </div>
     </div>
