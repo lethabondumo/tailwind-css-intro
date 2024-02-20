@@ -15,7 +15,7 @@ This is a TailwindCSS intro created by Niamh Doyle. Also covered is an intro to 
 
 ## What we will be doing today
 
-- This is purly styling tutorial. You won't be writing any JavaScript/React. All the React code has already been written for you.
+- This is purely styling tutorial. You won't be writing any JavaScript/React. All the React code has already been written for you.
 - We will be designing a card with text and icons and adding styling to the card, buttons and page
 - I have gone with a person for this tutorial, but you are free to make a card for a pet or a place, etc. Feel free to use the Pravatar images or choose one of your own
 
@@ -39,7 +39,7 @@ git checkout <name of branch>
 
 ### Branch "main"
 
-Branch "main" contains our starting point for today
+Branch "main" contains our starting point for today and the branch we will be working in. In a real project you wouldn't work in main (rather a branch called "dev" or "feature x" but this is just a tutorial on styling)
 
 ![starter image](/imgs/starter.png)
 
@@ -81,19 +81,19 @@ npm run dev
 
 ## Steps
 
-## Branches
+### Branches
 
 1. Look at starter code on main (three main components – app, form, card; app has a reducer function to manage state updates)
 2. Checkout final branch
 3. Switch back to main
 4. Create branch "starter" to save start state (but don't checkout; stay on main)
 
-## Page/layout styling
+### Page/layout styling
 
 5. Uncomment code in index.css
 6. Apply a data theme (of your choice) in index.html
 
-## Buttons
+### Buttons
 
 7. Open form
 8. Style buttons to your preference
@@ -101,27 +101,31 @@ npm run dev
 10. Notice conditional button disabling
 11. (Optional) Alter style of input elements
 
-## Name
+### Name
 
 12. Update name by submitting data via form
 
-## Photo
+### Photo
 
 13. Click button to randomise starting avatar
 14. Choose a person or animal or place, etc. for card.
 
-## Card
+### Card
 
 15. Apply margins, paddings, flex, flex gaps
 16. Apply text typographic styling
 17. Add icons
 18. Add badges
 
-## Resources for today:
+## Resources for today
+
+### Material Icons
 
 Material Icons we will use today (feel free to use the ones you prefer!)
 
 - [Icons](https://mui.com/material-ui/material-icons/)
+
+### DaisyUI
 
 daisyUI themeing and components (button, badge):
 
@@ -130,6 +134,8 @@ daisyUI themeing and components (button, badge):
 - [Inputs](https://daisyui.com/components/input/)
 - [Buttons](https://daisyui.com/components/button/)
 - [Badges](https://daisyui.com/components/badge/)
+
+### Tailwind CSS
 
 TailwindCSS utility classes (feel free to explore during the tutorial to find the necessary class name)
 
@@ -170,7 +176,7 @@ Material UI is an open-source React component library that implements Google's M
 - [Homepage](https://mui.com/material-ui/getting-started/)
 - [Installation](https://mui.com/material-ui/getting-started/installation/)
 
-### Pravatar:
+### Pravatar
 
 Contains avatars perfect for using in practice projects / when developing.
 
@@ -182,5 +188,6 @@ If you want to add remote tracking for a branch run:
 
 ```
 git checkout <name of branch>
+git branch
 git push -u origin <name of branch>
 ```
