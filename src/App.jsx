@@ -1,33 +1,66 @@
-import { useState } from "react";
-import "./App.css";
+/* eslint-disable no-case-declarations */
+import { useReducer } from "react";
+import Form from "./Form";
+import Header from "./Header";
+import Card from "./Card";
 
-// https://images.unsplash.com/photo-1601237638950-cf0c4c46c37d
+const initialState = {
+  firstName: "Lucy",
+  lastName: "Evans",
+  formIsOpen: false,
+  avatar: 45,
+};
 
-const URL_IMG_URL = `https://i.pravatar.cc/300?img=`;
+function reducer(state, action) {
+  switch (action.type) {
+    case "SET_NAMES":
+      return {
+        ...state,
+        firstName: action.payload.firstName,
+        lastName: action.payload.lastName,
+      };
+    case "SET_AVATAR":
+      return { ...state, avatar: action.payload };
+    case "TOGGLE_FORM":
+      const opened = !state.formIsOpen;
+      return {
+        ...state,
+        formIsOpen: opened,
+      };
+  }
+}
 
 function App() {
-  const [avatar, setAvatar] = useState();
-
   const randNum = Math.floor(Math.random() * 36);
 
-  const handlSetAvatar = () => {
-    setAvatar(randNum);
-  };
+  const [{ avatar, firstName, lastName, formIsOpen }, dispatch] = useReducer(
+    reducer,
+    initialState
+  );
+
+  const handlSetAvatar = () =>
+    dispatch({ type: "SET_AVATAR", payload: randNum });
+
+  const openFormHandler = () => dispatch({ type: "TOGGLE_FORM" });
 
   return (
     <div className="app">
-      <header>
-        <h1>Welcome to the Tailwind CSS Intro!</h1>
-      </header>
+      <Header />
       <div className="container">
-        <div>
-          <button className="btn btn-primary" onClick={handlSetAvatar}>
+        <div className="left">
+          <button
+            className={`btn ${formIsOpen ? "btn-disabled" : null}`}
+            onClick={openFormHandler}
+          >
+            Open Form
+          </button>
+          {formIsOpen && <Form dispatch={dispatch} />}
+        </div>
+        <div className="right">
+          <button className="btn" onClick={handlSetAvatar}>
             I&apos;m feeling lucky
           </button>
-        </div>
-        <div className="card">
-          {/* <img src="https://images.unsplash.com/photo-1601237638950-cf0c4c46c37d" /> */}
-          <img src={`${URL_IMG_URL}${avatar}`} />
+          <Card avatar={avatar} firstName={firstName} lastName={lastName} />
         </div>
       </div>
     </div>
