@@ -175,3 +175,12 @@ Material UI is an open-source React component library that implements Google's M
 Contains avatars perfect for using in practice projects / when developing.
 
 - [Pravatar](https://pravatar.cc/)
+
+## Remote tracking
+
+If you want to add remote tracking for a branch run:
+
+```
+git checkout <name of branch>
+git push -u origin <name of branch>
+```
