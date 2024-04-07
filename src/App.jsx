@@ -49,7 +49,7 @@ function App() {
       <div className="container">
         <div className="left">
           <button
-            className={`btn btn-neutral ${formIsOpen ? "btn-disabled" : null}`}
+            className={`${formIsOpen ? "btn-disabled" : null}`}
             onClick={openFormHandler}
           >
             Open Form
@@ -57,7 +57,7 @@ function App() {
           {formIsOpen && <Form dispatch={dispatch} />}
         </div>
         <div className="right">
-          <button className="btn btn-info" onClick={handlSetAvatar}>
+          <button className="" onClick={handlSetAvatar}>
             I&apos;m feeling lucky
           </button>
           <Card avatar={avatar} firstName={firstName} lastName={lastName} />
